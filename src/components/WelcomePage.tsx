@@ -258,11 +258,6 @@ const WelcomePage: React.FC<WelcomePageProps> = ({
   onStartJourney,
   onModeChange,
 }) => {
-  const navigate = useNavigate();
-
-  const handleLogin = () => {
-    navigate('/login');
-  };
 
   return (
     <StyledContainer mode={mode}>
